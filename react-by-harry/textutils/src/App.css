@@ -1,0 +1,44 @@
+
+/* .mainBox {
+ height: 100% !important;
+  width: 100vw !important;
+  background-color: #aa3838; 
+} */
+
+.darkMode {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 10px;
+  margin-right: 2rem;
+}
+
+.form-check-input:checked {
+  border-color: #ffffff;
+  background-color: rgb(27, 113, 167);
+}
+
+.form-check-input {
+  --bs-form-check-bg: #4a5561;
+  background-color: #ffffff;
+  border: var(--bs-border-width) solid #293e53;
+}
+
+.accordion {
+  height: 21rem;
+}
+
+.container {
+  height: 30rem;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
